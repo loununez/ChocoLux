@@ -33,15 +33,48 @@ header {
   display: flex;
   justify-content: space-between;
   align-items: center;
+  position: relative;
+  
 }
-
+.logo {
+  display: flex;
+  align-items: center;
+  justify-content:center;
+}
+/* Ocultar el botón hamburguesa en pantallas grandes */
+.hamburger {
+    display: none;
+    font-size: 28px;
+    background: none;
+    border: none;
+    color: #fff;
+    cursor: pointer;
+    position: absolute;
+    right: 0;
+    transform: translateY(-30%);
+}
+/* Responsive: menú oculto + botón visible en pantallas pequeñas */
+@media (max-width: 768px) {
+  .hamburger {
+    display: block;}
+}
+@media (max-width: 768px) {
+  .main-nav {
+    display: none;}
+  }
+.main-nav.active {
+    display: flex;
+    flex-direction: column;
+  }
 nav ul {
   display: flex;
   list-style: none;
+  padding: 10px 0;
 }
 
 nav ul li {
   margin-left: 20px;
+  padding: 10px 0;
 }
 
 nav ul li a {
