@@ -31,7 +31,7 @@ ChocoLux es un sitio web para una tienda de chocolates. Ofrecemos una variedad d
 
 ## Equipo de desarrollo
 
-Kuperman Sebastián
-Nuñez Lourdes
-Taranzo Emira
-Fernández Sebastián
+- Kuperman Sebastián
+- Nuñez Lourdes
+- Taranzo Emira
+- Fernández Sebastián
