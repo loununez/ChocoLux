@@ -56,6 +56,7 @@ nav ul li a {
   position: relative;
   overflow: hidden;
   margin-bottom: 0px;
+  text-shadow: 1px 1px 2px #8a6d4b, -1px -1px 2px #8a6d4b;
 }
 
 .slide {
@@ -190,6 +191,7 @@ nav ul li a {
   display: flex;
   gap: 30px;
   margin: 40px 0;
+  text-shadow: 1px 1px 2px #8a6d4b, -1px -1px 2px #8a6d4b;
 }
 
 .promo-banner {
@@ -278,6 +280,7 @@ nav ul li a {
   justify-content: center;
   text-align: center;
   color: white;
+  text-shadow: 1px 1px 2px #8a6d4b, -1px -1px 2px #8a6d4b;
 }
 
 .parallax-content h2 {
@@ -556,6 +559,7 @@ ul {
   color: white;
   padding: 200px 0;
   text-align: left;
+  text-shadow: 1px 1px 2px #8a6d4b, -1px -1px 2px #8a6d4b;
 }
 
 .hero h1 {
@@ -604,6 +608,7 @@ ul {
   bottom: 20px;
   left: 20px;
   color: white;
+  text-shadow: 1px 1px 2px #8a6d4b, -1px -1px 2px #8a6d4b;
 }
 
 .menu-caption .subtitle {
