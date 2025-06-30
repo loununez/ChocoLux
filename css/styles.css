@@ -33,48 +33,15 @@ header {
   display: flex;
   justify-content: space-between;
   align-items: center;
-  position: relative;
-  
 }
-.logo {
-  display: flex;
-  align-items: center;
-  justify-content:center;
-}
-/* Ocultar el botón hamburguesa en pantallas grandes */
-.hamburger {
-    display: none;
-    font-size: 28px;
-    background: none;
-    border: none;
-    color: #fff;
-    cursor: pointer;
-    position: absolute;
-    right: 0;
-    transform: translateY(-30%);
-}
-/* Responsive: menú oculto + botón visible en pantallas pequeñas */
-@media (max-width: 768px) {
-  .hamburger {
-    display: block;}
-}
-@media (max-width: 768px) {
-  .main-nav {
-    display: none;}
-  }
-.main-nav.active {
-    display: flex;
-    flex-direction: column;
-  }
+
 nav ul {
   display: flex;
   list-style: none;
-  padding: 10px 0;
 }
 
 nav ul li {
   margin-left: 20px;
-  padding: 10px 0;
 }
 
 nav ul li a {
@@ -946,6 +913,19 @@ form input[type="submit"]:hover {
   .flavors-container {
     flex-direction: column;
   }
+
+  .products-grid {
+    gap: 25px;
+    padding: 35px 0;
+  }
+  
+  .product-info {
+    padding: 18px;
+  }
+  
+  .product-title {
+    font-size: 17px;
+  }
 }
 
 /* Tablet vertical */
@@ -1037,6 +1017,24 @@ form input[type="submit"]:hover {
     font-size: 16px;
   }
 
+  .products-grid {
+    grid-template-columns: repeat(2, 1fr);
+    gap: 20px;
+    padding: 30px 0;
+  }
+  
+  .product-info {
+    padding: 15px;
+  }
+  
+  .product-title {
+    font-size: 16px;
+  }
+  
+  .product-price {
+    font-size: 15px;
+  }
+
 }
 
 /* Mobil 1 */
@@ -1058,6 +1056,24 @@ form input[type="submit"]:hover {
   }
   .btn {
     padding: 10px 20px;
+    font-size: 14px;
+  }
+
+   .products-grid {
+    gap: 15px;
+    padding: 25px 0;
+  }
+  
+  .product-info {
+    padding: 12px;
+  }
+  
+  .product-title {
+    font-size: 15px;
+    margin-bottom: 8px;
+  }
+  
+  .product-price {
     font-size: 14px;
   }
 
@@ -1089,6 +1105,24 @@ form input[type="submit"]:hover {
   }
   .newsletter-form input[type="submit"] {
     width: 100%;
+  }
+
+   .products-grid {
+    grid-template-columns: 1fr;
+    gap: 20px;
+    padding: 20px 0;
+  }
+  
+  .product-info {
+    padding: 15px;
+  }
+  
+  .product-title {
+    font-size: 16px;
+  }
+  
+  .product-price {
+    font-size: 15px;
   }
 }
 
